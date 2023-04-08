@@ -16,3 +16,11 @@ export enum AppState {
   Ready,
   Running,
 }
+
+export enum StorageScope {
+  App = 1,
+  User = 2,
+  Workspace = 3,
+  Container = 4,
+  Meta = 5,
+}
