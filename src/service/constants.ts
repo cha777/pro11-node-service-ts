@@ -8,3 +8,11 @@ export enum ClientType {
   Launcher = 2,
   Login = 3,
 }
+
+export enum AppState {
+  WillDisconnect,
+  NotRunning,
+  Initializing,
+  Ready,
+  Running,
+}
