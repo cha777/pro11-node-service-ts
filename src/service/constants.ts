@@ -24,3 +24,10 @@ export enum StorageScope {
   Container = 4,
   Meta = 5,
 }
+
+export enum LogLevel {
+  Error = 1,
+  Warning = 2,
+  Info = 4,
+  Debug = 5,
+}
